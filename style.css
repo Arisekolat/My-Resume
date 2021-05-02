@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+
+    font-family: 'Poppins', sans-serif;
+}
+.pd-l {
+    padding-left: 20px;
+}
+.mb {
+    margin-bottom: 15px;
+}
+
+body {
+    text-align: center;
+    color: rgb(1, 18, 37);
+}
+
+#page-wrap {
+    width: 900px;
+    margin: 30px auto;
+    text-align: left;
+}
+
+section.title {
+    padding: 15px;
+    color: white;
+    background: rgb(1, 18, 37);
+}
+.name h2 {
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+.name p {
+    margin-bottom: 5px;
+    letter-spacing: 1.5px;
+}
+.name-hr {
+    width: 200px;
+    margin-left: 0;
+    margin-bottom: 10px;
+}
+
+section.main {
+    margin-top: 25px;
+    padding: 10px 20px;
+}
+.main .left-side {
+    float: left;
+    width: 25%;
+}
+.main .right-side {
+    float: left;
+    width: 75%;
+    padding-left: 15px;
+}
+.hr-main {
+    height: 4px;
+    background: rgb(1, 18, 37);
+}
+.cys {
+    margin-top: 10px;
+}
+.csc {
+    margin-top: 45px;
+}
+.date {
+    float: left;
+    font-style: italic;
+    margin-top: 3px;
+}
+.state {
+    float: right;
+    font-style: italic;
+    margin-top: 3px;
+}
+
+.work-exp h2 {
+    margin-top: 60px;
+}
+.work {
+    margin-top: -45px;
+}
+
+.vodatech {
+    margin-top: 30px;
+}
+.vodatech p:nth-child(1) {
+    font-size: 11px;
+    color: rgba(1, 18, 37, 0.808);
+}
+.vodatech p:nth-child(2) {
+    font-style: italic;
+    letter-spacing: 1.2px;
+    margin-top: 3px;
+}
+ul li {
+    list-style: square;
+    margin-bottom: 5px;
+}
+
+.personal-project {
+    margin-top: 30px;
+}
+.personal-project li {
+    font-size: 13px;
+    color: rgba(1, 18, 37, 0.808);
+}
+.pp {
+    margin-top: 10px;
+}
+.pp p {
+    font-size: 18px;
+}
+.organization, .certificates, .achievement {
+    margin-top: 30px;
+}
+.organization p:nth-child(2), .certs p:nth-child(2), .achieve p:nth-child(2) {
+    font-style: italic;
+    font-size: 13px;
+    color: rgba(1, 18, 37, 0.808);
+}
+.certs, .achieve {
+    margin: 15px 0;
+}
+
+.details {
+    color: rgba(1, 18, 37, 0.808);
+}
+
+.details p {
+    font-size: 13px;
+    font-weight: bold;
+}
+.details img {
+    width: 25px;
+}
+.details img.linkedln {
+    width: 15px;
+}
+
+.skills, .language, .interest {
+    margin-top: 30px;
+}
+
+.skills .skill-list p {
+    display: inline-block;
+    margin: 10px 0;
+    background: rgb(209, 205, 205);
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.skills .skill-list p:nth-child(6) {
+    width: 150px;
+}
+
+.lang-list {
+    margin-top: 15px;
+}
+.lang-list .lang {
+    margin-bottom: 15px;
+}
+.lang-list .lang p:nth-child(1) {
+    font-size: 14px;
+    font-weight: bold;
+}
+.lang-list .lang p:nth-child(2) {
+    font-size: 11px;
+    font-style: italic;
+}
+
+.interest .interest-list p {
+    display: inline-block;
+    margin: 10px 0;
+    border: rgb(209, 205, 205) 1px solid;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 768px) {
+    
+}
